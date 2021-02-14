@@ -1,0 +1,56 @@
+Arguments: 
+  D:\Node\node.exe C:\Users\Mohit Kumar\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Node\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\CrSSL\bin;D:\Postgreysql\bin;C:\Program Files\Git\cmd;C:\Users\Mohit Kumar\Anaconda3;C:\Users\Mohit Kumar\Anaconda3\Library\mingw-w64\bin;C:\Users\Mohit Kumar\Anaconda3\Library\usr\bin;C:\Users\Mohit Kumar\Anaconda3\Library\bin;C:\Users\Mohit Kumar\Anaconda3\Scripts;C:\Users\Mohit Kumar\AppData\Local\Microsoft\WindowsApps;C:\Users\Mohit Kumar\AppData\Roaming\npm;C:\Users\Mohit Kumar\.dotnet\tools;C:\Users\Mohit Kumar\Downloads\mongodb-win32-x86_64-2012plus-4.2.6\mongodb-win32-x86_64-2012plus-4.2.6\bin;C:\Program Files (x86)\GDAL;D:\Postgreysql\bin;C:\Users\Mohit Kumar\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;D:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;C:\Users\Mohit Kumar\Python36\lib\site-packages;
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\Mohit Kumar\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141289:19)
+      at Object.onceWrapper (events.js:312:28)
+      at ClientRequest.emit (events.js:223:5)
+      at TLSSocket.emitRequestTimeout (_http_client.js:690:9)
+      at Object.onceWrapper (events.js:312:28)
+      at TLSSocket.emit (events.js:223:5)
+      at TLSSocket.Socket._onTimeout (net.js:474:8)
+      at listOnTimeout (internal/timers.js:531:17)
+      at processTimers (internal/timers.js:475:7)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~40.0.0",
+      "expo-status-bar": "~1.0.3",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+      "react-native-web": "~0.13.12"
+    },
+    "devDependencies": {
+      "@babel/core": "~7.9.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
